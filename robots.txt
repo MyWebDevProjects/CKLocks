@@ -1,0 +1,5 @@
+User-Agent: *
+
+Allow: /
+
+Sitemap: http://www.cklockscamarillo.com/sitemap.xml

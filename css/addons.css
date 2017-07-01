@@ -4,3 +4,17 @@
 .prices-head-1{
     margin-top: 20px !important;
 }
+
+/*
+.bgcolor{
+    height: 100px; !important
+}*/
+.img-responsive{
+    padding-left: 10px;
+}
+
+.text-left{
+padding-top: 4rem;
+ padding-bottom: 4rem;   
+font-size: 40px !important;
+}

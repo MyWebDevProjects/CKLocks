@@ -58,7 +58,7 @@
     var map = new google.maps.Map(document.getElementById("map"), {
     zoom:11,
     scrollwheel: false ,
-    center: new google.maps.LatLng(34.2164, -119.0376), // New York
+    center: new google.maps.LatLng(34.1706,-118.8376), // New York
     
     styles: [
           {
@@ -244,9 +244,10 @@
   
   // Data for the markers consisting of a Country name, Item Name, Address for Item, a LatLng and a zIndex // for the order in which these markers should display on top of each other.
   var item_location = [
-    ['New York', 'Lorem ipsum dolor sit amet, consectet adipisicing elit consectetur.', 34.1899, -119.0376, 4, 'map-icon.png'],
-    ['New Rochelle', 'Lorem ipsum dolor sit amet, consectet adipisicing elit consectetur.', 40.9114882,-73.7823549, 5, 'map-icon.png'],    
-      ['New Rochelle', 'Lorem ipsum dolor sit amet, consectet adipisicing elit consectetur.', 40.9143882,-73.784438, 5, 'map-icon.png'], 
+    ['Camerillo', 'Our Main Office', 34.1899, -119.0376, 4, 'map-icon.png'],
+    ['Thousand Oaks', 'Thousand Oaks locksmith service', 34.1706,-118.8376, 5, 'map-icon.png'],    
+      ['Agoura Hills', 'Agoura Hills locksmith service', 34.1533,-118.7617, 5, 'map-icon.png'], 
+      ['Morpark', 'Morpark locksmith service', 34.2856,-118.8820, 5, 'map-icon.png'], 
   ];
   
   function setMarkers(map) {

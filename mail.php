@@ -1,5 +1,5 @@
 <?php
-define('admin_email','your@domain.com'); // Change admin email here for example admin@yoursite.com
+define('admin_email','yuda8855@gmail.com'); // Change admin email here for example admin@yoursite.com
 define('website_name','Locksmith'); // Change website name here for example yoursite.com
 define('website_url', 'http://'.$_SERVER['HTTP_HOST']);
 define('EMAIL_FROM', 'noreply@'.$_SERVER['HTTP_HOST']);

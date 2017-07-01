@@ -340,6 +340,7 @@ header address{
 }
 .for-logo {
 	padding-right: 26px;
+    padding-left: 45px;
 	overflow: hidden;
 }
 .navigation .logo{
@@ -1801,6 +1802,9 @@ div.module.parallax-2 {
   background: #ffffff;
   padding:60px 0px 10px;
 }
+#testimonial{
+    margin-top:15rem;
+}
   #testimonial h1
   {
 	  text-transform:capitalize;
@@ -1840,6 +1844,7 @@ div.module.parallax-2 {
   	background-size: cover;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
+      margin-top: 20px;
   }
   .bx-wrapper img {
   display: block;
